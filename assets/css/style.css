@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("../images/comicbg2.png");
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+
+  #titlebox {
+    margin-bottom: -55%;
+    opacity: .90;
+    margin: auto;
+    height: 300px;
+    width: 60%;
+    border: 10px solid black;
+    background: red;
+    padding: 10px;
+}
+
+ .marvel-logo {
+     opacity: .90;
+     margin-left: 35%;
+     max-height: 40%;
+     max-width: 100%;
+     
+ }
+
+ .hangman-logo {
+     opacity: .90;
+     margin-top: -1%;
+     margin-left: 14%;
+     
+ }
+
+ .charpic {
+   float: left;
+    opacity: .75;
+    height: 20%;
+    width: 50%;
+ }
+ .picture-box {
+    background: white;
+    opacity: .85;
+    float: left;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 16.5%;
+    margin-bottom: 20%;
+    width: 33%;
+    padding: 30px;
+    border: 10px solid black;
+ }
+
+ .game-box {
+    background: white;
+    opacity: .75;
+    float: right;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 16.5%;
+    width: 33%;
+    padding: 30px;
+    border: 10px solid black;
+ }
+
+ .start-box {
+     opacity: .95;
+     background: yellow;
+     width: 455px;
+     text-align: center;
+     padding: 30px;
+     margin-top: -7.5%;
+     margin-left: -7.55%;
+     border-bottom: 3px solid black;
+ }
+
+ .stones {
+     text-align: center;
+     opacity: .80;
+ }
+
+ .guesses-left {
+     float: right;
+     position: relative; top: -250%;
+
+
+
+ }
+ .score-box {
+    margin-top: 37%;
+    margin-left: 15%;
+    background: white;
+    opacity: .75;
+    height: 200px;
+    width: 70%;
+    padding: 30px;
+    border: 10px solid black;
+ }
+
+ .word-blanks {
+     text-align: center;
+     margin-top: 20%;
+    margin-left: 10%;
+    background: white;
+    opacity: .75;
+    height: 200px;
+    width: 80%;
+    padding: 50px;
+   
+ }
+
+ .guessbox1 {
+    margin-top: -4%;
+    margin-left: 0%;
+    opacity: .75;
+    height: 200px;
+    width: 33%;
+    padding: 50px;
+}
+
+.guesstext1 {
+    text-align: center;
+    position: relative; top: -250%;
+}
+
+.right-guesses { 
+    text-align: center;
+    position: relative; top: -200%;
+ 
+}
+.guessbox2 {
+    margin-top: -4%;
+    margin-left: 25%;
+    opacity: .75;
+    height: 200px;
+    width: 33%;
+    padding: 50px;
+}
+.guesstext2 {
+    text-align: center;
+    position: relative; top: -250%;
+}
+
+.wrong-guesses { 
+    text-align: center;
+    position: relative; top: -200%;
+}
+
+.lossesbox {
+    margin-top: -4%;
+    margin-left: 60%;
+    opacity: .75;
+    height: 200px;
+    width: 33%;
+    padding: 50px;
+}
+
+.losstext {
+    text-align: center;
+    position: relative; top: -345%;
+}
+
+.loss-count {
+    text-align: center;
+    position: relative; top: -375%;
+    margin-right: -100%;
+}
+
+.winsbox {
+    margin-top: -4%;
+    margin-left: 53%;
+    opacity: .75;
+    height: 200px;
+    width: 33%;
+    padding: 50px;
+}
+
+.wintext {
+    text-align: center;
+    position: relative; top: -450%;
+}
+
+.win-count {
+    text-align: center;
+    position: relative; top: -480%;
+    margin-right: -100%;
+}
+
+ footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+
+ }
